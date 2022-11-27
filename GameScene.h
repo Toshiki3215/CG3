@@ -60,6 +60,11 @@ private: // メンバ変数
 	/// ゲームシーン用
 	/// </summary>
 	Sprite* spriteBG = nullptr;
+	Sprite* spriteSub = nullptr;
 	Object3d* object3d = nullptr;
+	Object3d* object3d2 = nullptr;
+
+	XMFLOAT3 position;
+	XMFLOAT3 subPosition;
 };
 
